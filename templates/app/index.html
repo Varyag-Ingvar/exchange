@@ -12,7 +12,7 @@
                     <div class="form-row">
                         <div class="form-group col-md-4 mb-0">
                             <label for="amount">Сумма*</label>
-                            <input id='amount' type="number" class="form-control" placeholder="Введите число" {% if from_amount %} value="{{ from_amount }}" {% endif %} name="from-amount">
+                            <input id='amount' type="number" class="form-control" placeholder="Введите число" required {% if from_amount %} value="{{ from_amount }}" {% endif %} name="from-amount">
                         </div>
                         <div class="form-group col-md-4 mb-0">
                             <label for="from_curr">Отдаем*</label>
